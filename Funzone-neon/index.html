@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FunZone</title>
+    <link rel='stylesheet' href='https://unpkg.com/augmented-ui@2.0.0/augmented-ui.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <code class="code-container">
+  <input class="sig" value="// vasanthabalaji">
+  <div class="glow-container">
+    <div class="augs" data-augmented-ui></div>
+  </div>
+  <section class="augs bg" data-augmented-ui>
+    <button class="dots" onclick="changeMode(this)" title="(click to change) Current Mode: css"></button>
+    <input class="title" value="Funzone.use-as-text-editor ">
+    <div class="code highcontrast-dark">
+      <textarea id="code">
+@keyframes you-can-read-it-awsome {
+  to { --edit-use-coursor-make-yourown: text; }
+}
+
+@profile { 
+  name: vasanthabalaji;
+  about: me(explore & learn tech "try to understand there need and functionality how it works" :);
+  education: "BSc.CS.CTIS";
+  job role: "";
+}
+
+:hardskill() {
+  --tech-understanding: most-focus-on-cloud-security
+    1cretificate Azure AZ900 var(--value-cloud, 1);
+    2cretificate IBM pthon101 var(--value-python, 1);
+  outcome: var(--knowledge-++);
+}
+
+:softskill() {
+  --behaviour-stable: most-focus-on-mental-stablity
+    1cretificate workspace ethiqueate var(--value, 1);
+    2cretificate mental behaviour var(--value, 2);
+  outcome: var(--communication-++);
+}
+
+/* hobbies */
+.art-digital.illustrate {
+  --Draw-post: 1; /* post input art in instagram or pintrest */
+  /* var(--keep-me-creative) is the output */
+}
+
+.fitness-cycling {
+  --wakeup-morning: 1; /* cycle input fitness in 10km or 20km */
+  /* var(--keep-me-active) is the output */
+}
+      </textarea>
+    </div>
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/javascript/javascript.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/css/css.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/markdown/markdown.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/htmlmixed/htmlmixed.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/xml/xml.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

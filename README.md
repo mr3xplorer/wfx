@@ -17,7 +17,9 @@ Welcome to the **WFX Website Effects** is dedicated to various inspiring and cre
 
 **Pen✒️**
 
+- [neon text editor](Funzone-neon)
 - [deep dive](https://codepen.io/alexandrevacassin/pen/rNgzOXY)
+  
 ---
 Happy coding! 🎨✨
 
